@@ -154,7 +154,7 @@ AUTHENTICATION_BACKENDS=[
     # need to login by username un django admin, regardless of allauth
     "django.contrib.auth.backends.ModelBackend",
     # allauth specific authentication methods, such as login by email
-    "allaith.account.auth_backends.AuthenticationBackend"
+    "allauth.account.auth_backends.AuthenticationBackend"
 ]
 
 EMAIL_BACKEND="django.core.mail.backends.console.EmailBackend"
