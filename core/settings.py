@@ -165,7 +165,7 @@ REST_FRAMEWORK={
 
     "DEFAULT_PERMISSION_CLASSES":[
         # rest_framework_simplejwt.authentication.JWTauthentication
-        "rest_framework.permisions.IsAuthenticated"
+        "rest_framework.permissions.IsAuthenticated"
     ],
     "DEFAULT_AUTHENTICATION_CLASSES":[
         # dj_rest_auth.jwt_auth.JWTCookieAuthentication
@@ -186,8 +186,8 @@ SIMPLE_JWT={
 
 }
 
-SWAGGER_SETTINGS=[
+SWAGGER_SETTINGS={
     "SECURITY_DEFINITIONS":{
         "Bearer":{"type":"apiKey","name":"Authorization", "in":"header"}
     }
-]
+}
